@@ -16,6 +16,16 @@ The goal is to identify which companies, industries, countries, and funding stag
 * Power BI
 * GitHub
 
+## Dashboard Preview
+
+### Tableau Dashboard
+
+![Tableau Dashboard](Tableau/world_layoffs_tableau_dashboard.png)
+
+### Power BI Dashboard
+
+![Power BI Dashboard](Power%20BI/world_layoffs_power_bi_dashboard.png)
+
 ## Key Analysis Areas
 
 * Layoffs by country
@@ -24,30 +34,6 @@ The goal is to identify which companies, industries, countries, and funding stag
 * Layoffs by funding stage
 * Layoff trends over time
 * Comparison of global workforce reductions
-
-## Dashboards
-
-Interactive dashboards were created using **Tableau** and **Power BI** to present the findings visually and make the trends easier to understand.
-
-## Project Structure
-
-```text
-world-layoffs/
-│
-├── python/
-│   └── world_layoffs_analysis.ipynb
-│
-├── mysql/
-│   └── SQL analysis files
-│
-├── tableau/
-│   └── Tableau dashboard
-│
-├── powerbi/
-│   └── Power BI dashboard
-│
-└── README.md
-```
 
 ## Key Findings
 
@@ -71,25 +57,21 @@ The dataset was cleaned and prepared before analysis. The data preparation proce
 * Converting date fields into the appropriate format
 * Preparing the dataset for SQL analysis and visualization
 
-## Conclusion
+## Project Structure
 
-This project demonstrates the use of **data cleaning, exploratory data analysis, SQL, data visualization, and dashboard development** to transform a raw global layoffs dataset into meaningful business insights.
-
-## Dashboard Preview
-
-### Tableau Dashboard
-
-The Tableau dashboard provides an interactive view of global layoffs, including:
-
-* Top 10 companies by total layoffs
-* Top 10 countries by total layoffs
-* Top 10 industries by total layoffs
-* Layoffs by funding stage
-
-![Tableau Dashboard](tableau/world_layoffs_tableau_dashboard.png)
-
-### Power BI Dashboard
-
-The Power BI dashboard provides an interactive view of global layoffs across companies, countries, industries, funding stages, and time periods.
-
-![Power BI Dashboard](powerbi/world_layoffs_powerbi_dashboard.png)
+```text
+world-layoffs-analysis/
+│
+├── Python/
+│   └── world_layoffs_analysis.ipynb
+│
+├── MySQL/
+│   └── SQL analysis files
+│
+├── Tableau/
+│   └── world_layoffs_tableau_dashboard.png
+│
+├── Power BI/
+│   └── world_layoffs_power_bi_dashboard.png
+│
+└── README.md

@@ -66,7 +66,7 @@ world-layoffs-analysis/
 │   └── world_layoffs_analysis.ipynb
 │
 ├── SQL/
-│   └── SQL analysis files
+│   └── world_layoffs_analysis.sql
 │
 ├── Tableau/
 │   ├── world_layoffs_analysis_dashboard.twbx

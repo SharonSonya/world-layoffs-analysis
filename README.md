@@ -48,3 +48,30 @@ world-layoffs/
 │
 └── README.md
 ```
+
+## Key Findings
+
+The analysis revealed several notable patterns in global layoffs:
+
+* The **United States** accounted for the largest number of layoffs in the dataset.
+* **Amazon, Google, and Meta** were among the companies with the highest recorded layoffs.
+* The **Consumer** and **Retail** industries experienced significant workforce reductions.
+* Layoffs varied considerably across different funding stages.
+* The analysis showed clear changes in layoff activity across different time periods.
+
+These findings were explored through SQL queries, Python-based exploratory data analysis, and interactive Tableau and Power BI dashboards.
+
+## Data Preparation
+
+The dataset was cleaned and prepared before analysis. The data preparation process included:
+
+* Removing duplicate records
+* Handling missing values
+* Standardizing country and location values
+* Converting date fields into the appropriate format
+* Preparing the dataset for SQL analysis and visualization
+
+## Conclusion
+
+This project demonstrates the use of **data cleaning, exploratory data analysis, SQL, data visualization, and dashboard development** to transform a raw global layoffs dataset into meaningful business insights.
+

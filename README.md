@@ -65,13 +65,16 @@ world-layoffs-analysis/
 ├── Python/
 │   └── world_layoffs_analysis.ipynb
 │
-├── MySQL/
+├── SQL/
 │   └── SQL analysis files
 │
 ├── Tableau/
+│   ├── world_layoffs_analysis_dashboard.twbx
 │   └── world_layoffs_tableau_dashboard.png
 │
 ├── Power BI/
+│   ├── world_layoffs_analysis_power_bi.pbix
 │   └── world_layoffs_power_bi_dashboard.png
 │
+├── LICENSE
 └── README.md

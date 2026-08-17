@@ -75,3 +75,21 @@ The dataset was cleaned and prepared before analysis. The data preparation proce
 
 This project demonstrates the use of **data cleaning, exploratory data analysis, SQL, data visualization, and dashboard development** to transform a raw global layoffs dataset into meaningful business insights.
 
+## Dashboard Preview
+
+### Tableau Dashboard
+
+The Tableau dashboard provides an interactive view of global layoffs, including:
+
+* Top 10 companies by total layoffs
+* Top 10 countries by total layoffs
+* Top 10 industries by total layoffs
+* Layoffs by funding stage
+
+![Tableau Dashboard](tableau/world_layoffs_tableau_dashboard.png)
+
+### Power BI Dashboard
+
+The Power BI dashboard provides an interactive view of global layoffs across companies, countries, industries, funding stages, and time periods.
+
+![Power BI Dashboard](powerbi/world_layoffs_powerbi_dashboard.png)
